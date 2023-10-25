@@ -11,9 +11,12 @@
         </style>
     </head>
     <body>
-       <audio id="myAudio" controls autoplay>
-  <source src="data/music.mp3" type="audio/mp3">
-</audio>
+      <audio id="my_audio" src="data/music.mp3" loop="loop"></audio>
+        <script>
+            window.onload = function() {
+    document.getElementById("my_audio").play();
+}
+                </script>
         <script>
             alert("WELCOME TO MY SITE")
         </script><center>
